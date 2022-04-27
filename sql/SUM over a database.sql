@@ -1,4 +1,3 @@
-
 -- Given a database, sum all values stored in all columns of type integer across all the user-created tables. The result of the query must be stored in a column called total of type integer.
 -- Note: it should be possible to execute your code multiple times without errors.
 

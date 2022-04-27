@@ -1,4 +1,3 @@
 *.sql linguist-detectable=true
 *.sql linguist-language=sql
-*.r linguist-language=R
 *.ipynb linguist-language=Python

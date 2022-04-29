@@ -24,3 +24,13 @@ def tribonacci(signature, n):
             signature.pop()
     return signature
         
+def tribonacci(signature, n):
+    newarray = signature.copy()
+    if n >= 3:
+        for i in range(2,n):
+            x = newarray[i] + newarray[i-1] + newarray[i-2]
+            newarray.append(x)
+        newarray = newarray[0:n]
+    else:
+        newarray = signature[0:n]
+    return newarray
